@@ -1,0 +1,26 @@
+{
+  "name": "rest-api",
+  "version": "0.0.1",
+  "description": "Real time private chat application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Jagan Mohan Rao Duddukuru",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/debug-agent": "^5.1.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.14.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.10",
+    "socket.io": "^2.3.0"
+  }
+}
